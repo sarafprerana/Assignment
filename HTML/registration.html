@@ -4,18 +4,15 @@
 <body align="center">
 <h2>Welcome To Registration .....!</h2>
 <p id="demo"></p>
-<form align="center" bgcolor="blue">
-    <table>
+<form align="center" >
+    <table align ="center" bgcolor="cyan">
     <tr>
-        <th>First Name:</th><td><input type="text" name="fname"/></td>
+        <th>First Name:</th><td><input type="text" name="fname" placeholder="first Name"/></td>
     </tr>
     <tr>
         <th>Last Name:</th><td><input type="text" name="lname" placeholder="Enter Last Name"/></td>
     </tr>
-    <tr>
-        <th>City :</th><input type="text" value="select">
-        <select><li>select</li>Pune</select>
-    </tr>
+    <br><br>
     <br>
     <tr>
         <th>Gender:</th><td>Male<input type="radio"/>
@@ -25,19 +22,23 @@
     </tr>
    
 </table>
+<br><br>
+<button type="button" onclick="register()">Register</button>
+<button type="button" onclick="cancel()">cancel</button>
 
-</form>
-
-     <button type="button" onclick="register()">Register</button>
-
+    </form>
 <script>
-    function Register()
+    function register()
     {
         alert("Your Application Submitted...!");
     }
+    function cancel()
+    {
+        alert("Your Application Cancel...!");
+    }
 </script>
 
-
+</form>
 
 </body>
 </html> 
