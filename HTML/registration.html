@@ -13,19 +13,40 @@
         <th>Last Name:</th><td><input type="text" name="lname" placeholder="Enter Last Name"/></td>
     </tr>
     <tr>
-        <th>City :</th><td><select>mumbai
-            <ol><li>Pune</li></ol>
-        </select></td>
+        <th>City :</th><input type="text" value="select">
+        <select><li>select</li>Pune</select>
     </tr>
+    <br>
     <tr>
-        <th>Gender:</th><td>Male<input type="radio"   value="Male"/>
-            Female<input type="radio" value="FeMale"/>
+        <th>Gender:</th><td>Male<input type="radio"/>
+            Female<input type="radio"  />
         </td>
         </div>
     </tr>
-
+   
 </table>
 
 </form>
+
+     <button type="button" onclick="click()">click</button>
+
+<script>
+    function click()
+    {
+        alert("Your Application Submitted...!");
+    }
+</script>
+
+
+<button type="button"
+onclick="login()">
+Login</button>
+</form>
+<script >
+function login()
+{
+    alert("Success..!");
+}
+</script>
 </body>
 </html> 
