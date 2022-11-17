@@ -84,7 +84,7 @@ document.write(text2);
 //string pdding(padStart/padEnd) method
 let text = "3911";
 var text1=text.padStart(10,"x");
-document.write(text1);//.innerHTML = text.padStart(10,"x");
+document.write(text1);
 
 
 //string charAt() method
