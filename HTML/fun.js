@@ -1,25 +1,4 @@
-//for loop
-/* display text 10 times
-let n = 5;
-*/
-/* looping from i = 1 to 10
-for (let i = 0; i <= n; i++) {
-    console.log('JavaScript');
-}
-*/
-//while loop
-var i=1;
-while(i<10){
-   // whilecheck++;
-    document.write("whilecheck=>",i);
-}
 
-/*for-in-loop
-var forinloop=['A','B','C','D'];
-for(var i in forinloop){
-console.log("value in loop",forinloop[i]);
-}
-*/
 
 /*Array Declaration
 const Name = ["Ovi","Aarohi","Kavya"];
@@ -112,6 +91,40 @@ document.write(text1);//.innerHTML = text.padStart(10,"x");
 var t = "HELLO WORLD";
 let a=t.charAt(7);
 document.write(a);
+*/
+
+/*Map 
+let num1=[25];
+let newmap=num1.map(Math.sqrt);
+document.write(newmap);
+*/
+
+/*append using map
+var arraydata = ["Practical"];
+var newarray=arraydata.map(res=>res+" " +"test");
+document.write(newarray);
+*/
+
+/*Using Map----.get()/set() method 
+const fruits = new Map([
+  ["apples", 500],
+  ["bananas", 300],
+  ["oranges", 200]
+]);
+text9=fruits.set("apples",800);
+text8=fruits.get("apples");
+document.write(text8);
+*/
+
+/*delete() Method-----Using Map
+const Name=new Map([
+  ["a",1],
+  ["b",2],
+  ["c",3],
+  ["d",4]
+]);
+let code=Name.delete("e");
+document.write(code);
 */
 
 
