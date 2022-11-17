@@ -1,13 +1,13 @@
 
 <!DOCTYPE html>
 <html>
-<body align="center">
+<body align="center" bgcolor="#ccb6a3">
 <h2>Welcome To Registration .....!</h2>
 <p id="demo"></p>
 <form align="center" >
-    <table align ="center" bgcolor="cyan">
+    <table align ="center" bgcolor="cyan" bordercolor="#bf63a5">
     <tr>
-        <th>First Name:</th><td><input type="text" name="fname" placeholder="first Name"/></td>
+        <th><b>First Name:</b></th><td><input type="text" name="fname" placeholder="first Name" required="required"/></td>
     </tr>
     <tr>
         <th>Last Name:</th><td><input type="text" name="lname" placeholder="Enter Last Name"/></td>
@@ -15,18 +15,24 @@
     <br><br>
     <br>
     <tr>
-        <th>Gender:</th><td>Male<input type="radio"/>
-            Female<input type="radio"  />
-        </td>
-        </div>
+        <th>Gender:</th><td><input type="radio"/>Male
+            <input type="radio"  />FeMale</td>
     </tr>
-   
+    <br>
+   <tr>
+        <th>Hobbies:</th><td><input type="checkbox">Cricket</td>
+   </tr>
+   <tr>
+        <th>Address:</th><td><input type="address" /></td>
+   </tr>
+   <tr>
+        <th>City:</th><td><input type="city"/></td>
+   </tr>
 </table>
 <br><br>
-<button type="button" onclick="register()">Register</button>
-<button type="button" onclick="cancel()">cancel</button>
-<script src="fun1.js"></script>
-<script src="fun1.js"></script>
+<button type="button" onclick="register()">Register</button><script src="fun1.js"></script>
+<button type="button" onclick="cancel()">cancel</button><script src="fun1.js"></script>
+<button type="button" onclick="clearall()">ClearAll</button><script src="fun1.js"></script>
     </form>
 
 
