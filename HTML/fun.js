@@ -1,10 +1,10 @@
 
-
+/*
 function login()
 {
     alert("Success..!");
 }
-/* function register()
+ function register()
  {
      alert("Your Application Submitted...!");
  }
@@ -12,3 +12,7 @@ function login()
  {
      alert("Your Application Cancel...!");
  }*/
+
+ var text = "HELLO WORLD";
+let a=text.charAt(7);
+document.write(a);
