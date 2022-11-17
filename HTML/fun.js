@@ -24,11 +24,7 @@ console.log("value in loop",forinloop[i]);
 const Name = ["Ovi","Aarohi","Kavya"];
 document.write(Name);
 
-
-
-
 //Array POP():-- remove last ele
-
 const code1= ["Banana", "Orange", "Apple", "Mango"];
 document.write(code1)
 code1.pop();
@@ -36,7 +32,6 @@ document.write(code1);
 
 
 //Array push()----add new element at the end of array
-
 const fruits = ["Banana", "Orange", "Apple", "Mango"];
 document.write(fruits);
 fruits.push("Kiwi");
@@ -59,7 +54,7 @@ document.write(fruit);
 //2-----position 
 //1-----how many ele remove
 
-//const company = {
+const company1 = {
   name: 'Patheya',
   address: 'Pune',
   city: 'Pune',
@@ -67,8 +62,8 @@ document.write(fruit);
   pincode: 411041,
   active: true
 };
-document.write('Company: ', company);
-document.write('Company Name: ', company.name);
+document.write('Company: ', company1);
+document.write('Company Name: ', company1.name);
 
 
 //Nested objects
@@ -95,8 +90,8 @@ document.write(str2);
 
 
 //string replaceAll() method
-test2="zhis is my first web page";
-test3=test2.replaceAll("z","T");
+let test2=" my first web page";
+let test3=test2.replaceAll("m","M");
 document.write(test3);
 
 
