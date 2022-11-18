@@ -16,5 +16,5 @@ function cancel()
 }
 function clearall()
 {
-    alert("Clear Information")
+    alert("Clear Information");
 }
